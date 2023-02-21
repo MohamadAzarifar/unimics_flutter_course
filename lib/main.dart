@@ -1,3 +1,8 @@
+import 'package:flutter/material.dart';
+
+import 'app.dart';
+
 void main() {
-  print('Hello');
+  final app = MyApp();
+  runApp(app);
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:unimics_flutter_course/screens/second_screen.dart';
+import 'package:unimics_flutter_course/screens/book_detail_screen.dart';
 
-class FirstPage extends StatelessWidget {
+class BookExploreScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +23,7 @@ class FirstPage extends StatelessWidget {
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (_) {
-          return SecondPage();
+          return BookDetailScreen();
         },
       ),
     );
